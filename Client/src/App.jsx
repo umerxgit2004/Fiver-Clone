@@ -13,6 +13,7 @@ import MyGigs from './pages/myGigs/MyGigs'
 import Messages from './pages/messages/Messages'
 import Add from './pages/add/Add'
 import Orders from './pages/orders/Ordes'
+import Message from './components/message/Message'
 
 
 const App = () => {
@@ -54,7 +55,7 @@ const App = () => {
          },
          {
           path:"/message/:id",
-          element : <Messages/>
+          element : <Message/>
          },
          {
           path:"/add",
