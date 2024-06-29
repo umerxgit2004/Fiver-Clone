@@ -9,9 +9,10 @@ import Footer from './components/footer/Footer'
 import Home from './pages/home/Home'
 import Gigs from './pages/gigs/Gigs'
 import MyGigs from './pages/myGigs/MyGigs'
-import Order from './pages/orders/Order'
+
 import Messages from './pages/messages/Messages'
 import Add from './pages/add/Add'
+import Orders from './pages/orders/Ordes'
 
 
 const App = () => {
@@ -45,7 +46,7 @@ const App = () => {
          },
          {
           path:"/orders",
-          element : <Order/>
+          element : <Orders/>
          },
          {
           path:"/messages",
